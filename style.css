@@ -1,0 +1,126 @@
+body {
+  background-color: #040C18 !important;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+.navbar-expand-lg {
+  color: #FFFFFF;
+}
+.navbar-expand-lg .container-fluid .navbar-brand {
+  color: #FFFFFF;
+}
+.navbar-expand-lg .container-fluid .nav-item .nav-link {
+  color: #FFFFFF;
+}
+.navbar-expand-lg .btn-orange .nav-link {
+  color: #FFFFFF;
+}
+.navbar-expand-lg .btn-orange .btn-or {
+  background-color: #FF4820;
+  border-radius: 5px;
+  color: #FFFFFF;
+  height: 58px;
+  width: 152px;
+}
+
+.bann {
+  display: flex;
+  justify-content: center;
+  margin-top: 119px;
+  margin-bottom: 128px;
+}
+
+.whats {
+  justify-content: center;
+}
+.whats .What {
+  width: 1170px;
+  height: 695px;
+  left: 135px;
+  top: 1044px;
+  background: #052D56;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.header .parr-header {
+  display: flex;
+  place-items: center;
+  color: #81AFDD;
+  width: 428px;
+  height: 227px;
+}
+.header .btn {
+  background-color: #FF4820;
+  color: #FFFFFF;
+  width: 174px;
+  height: 73px;
+}
+.header p.social {
+  display: contents;
+  color: white;
+  font-size: 12px;
+}
+
+input.bgud {
+  background: #052D56;
+  border: none;
+  color: #3D6184;
+  width: 456px;
+  height: 73px;
+}
+
+.footer .img-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+.footer .btn-fo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 180px;
+}
+.footer .btn-fo button.btn-footer {
+  display: flex;
+  justify-content: center;
+  background: #040C18;
+  color: white;
+  border-color: white;
+  margin-top: 64px;
+  width: 218px;
+  height: 65px;
+  place-items: center;
+}
+.footer .tex-footerr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  color: white;
+}
+.footer .tex-footerr p {
+  font-size: 12PX;
+  width: 168PX;
+  margin-top: 25PX;
+}
+.footer .tex-footer {
+  color: white;
+}
+.footer .tex-footer h5 {
+  font-size: 14px;
+}
+.footer .tex-footer p {
+  font-size: 12px;
+}
+.footer .fn {
+  margin-top: 86px !important;
+  display: grid;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+}/*# sourceMappingURL=style.css.map */

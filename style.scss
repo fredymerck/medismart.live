@@ -1,0 +1,140 @@
+$colorbg: #040C18;
+$color-title: #FFFFFF;
+$btn-orange: #FF4820;
+$color-p: #81AFDD;
+$background-form: #052D56;
+$color-form: #3D6184;
+
+body {
+    background-color: $colorbg !important;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.navbar-expand-lg {
+    color: $color-title;
+    .container-fluid {
+        .navbar-brand {
+            color: $color-title;
+        }
+        .nav-item{
+            .nav-link {
+                color: $color-title;
+            }
+        }
+    }
+    .btn-orange {
+        .nav-link {
+            color: $color-title;
+        }
+        .btn-or {
+            background-color: $btn-orange;
+            border-radius: 5px;  
+            color: $color-title;
+            height: 58px;
+            width: 152px;
+        }
+    }
+}
+.bann {
+    display: flex;
+    justify-content: center;
+    margin-top: 119px;
+    margin-bottom: 128px;
+}
+.whats {
+    justify-content: center;
+    .What {
+    width: 1170px;
+    height: 695px;
+    left: 135px;
+    top: 1044px;
+    background: #052D56;
+    }
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    .parr-header{
+        display: flex;
+        place-items: center;
+        color: $color-p;
+        width: 428px;
+        height: 227px;
+    }
+    .btn {
+        background-color: $btn-orange;
+        color: $color-title;
+        width: 174px;
+        height: 73px;
+    }
+    p.social {
+        display: contents;
+        color: white;
+        font-size: 12px;
+    }
+}
+input.bgud {
+    background: #052D56;
+    border: none;
+    color: #3D6184;
+    width: 456px;
+    height: 73px;
+}
+
+.footer {
+    .img-footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 300px;
+    }
+    .btn-fo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 180px;
+        button.btn-footer {
+            display: flex;
+            justify-content: center;
+            background: $colorbg;
+            color: white;
+            border-color: white;
+            margin-top: 64px;
+            width: 218px;
+            height: 65px;
+            place-items: center;
+        }
+    }
+    .tex-footerr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        place-items: center;
+        color: white;
+        p {
+            font-size: 12PX;
+            width: 168PX;
+            margin-top: 25PX;
+        }
+    }
+    .tex-footer {
+        color: white;
+        h5 {
+            font-size: 14px;
+        }
+        p {
+            font-size: 12px;
+        }
+    }
+    .fn {
+        margin-top: 86px !important;
+        display: grid;
+        justify-content: center;
+        color: white;
+        font-size: 12px;
+    } 
+}
+
